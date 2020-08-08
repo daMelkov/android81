@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -31,60 +29,6 @@
             android:orientation="horizontal" >
 
             <Button
-                android:id="@+id/button_percent"
-                android:text="@string/percent"
-                style="@style/ButtonStyle" />
-
-            <Button
-                android:id="@+id/button_ce"
-                android:text="@string/ce"
-                style="@style/ButtonStyle" />
-
-            <Button
-                android:id="@+id/button_c"
-                android:text="@string/C"
-                style="@style/ButtonStyle" />
-
-            <Button
-                android:id="@+id/button_backspace"
-                android:text="@string/backspace"
-                style="@style/ButtonStyle"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-
-            <Button
-                android:id="@+id/button_reverse"
-                android:text="@string/reverse"
-                style="@style/ButtonStyle" />
-
-            <Button
-                android:id="@+id/button_quad"
-                android:text="@string/quad"
-                style="@style/ButtonStyle"/>
-
-            <Button
-                android:id="@+id/button_square"
-                android:text="@string/square"
-                style="@style/ButtonStyle" />
-
-            <Button
-                android:id="@+id/button_divide"
-                android:text="@string/divide"
-                style="@style/ButtonStyle" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal" >
-
-            <Button
                 android:id="@+id/button_7"
                 android:text="@string/seven"
                 style="@style/ButtonStyle" />
@@ -100,8 +44,18 @@
                 style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/button_multiply"
-                android:text="@string/multiply"
+                android:id="@+id/button_divide"
+                android:text="@string/divide"
+                style="@style/ButtonStyle" />
+
+            <Button
+                android:id="@+id/button_reverse"
+                style="@style/ButtonStyle"
+                android:text="@string/reverse" />
+
+            <Button
+                android:id="@+id/button_backspace"
+                android:text="@string/backspace"
                 style="@style/ButtonStyle"/>
 
         </LinearLayout>
@@ -127,9 +81,19 @@
                 style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/button_minus"
-                android:text="@string/minus"
+                android:id="@+id/button_multiply"
+                android:text="@string/multiply"
                 style="@style/ButtonStyle"/>
+
+            <Button
+                android:id="@+id/button_quad"
+                android:text="@string/quad"
+                style="@style/ButtonStyle"/>
+
+            <Button
+                android:id="@+id/button_ce"
+                android:text="@string/ce"
+                style="@style/ButtonStyle" />
 
         </LinearLayout>
 
@@ -154,8 +118,18 @@
                 style="@style/ButtonStyle" />
 
             <Button
-                android:id="@+id/button_plus"
-                android:text="@string/plus"
+                android:id="@+id/button_minus"
+                android:text="@string/minus"
+                style="@style/ButtonStyle"/>
+
+            <Button
+                android:id="@+id/button_square"
+                android:text="@string/square"
+                style="@style/ButtonStyle" />
+
+            <Button
+                android:id="@+id/button_c"
+                android:text="@string/C"
                 style="@style/ButtonStyle" />
 
         </LinearLayout>
@@ -178,6 +152,16 @@
             <Button
                 android:id="@+id/button_point"
                 android:text="@string/point"
+                style="@style/ButtonStyle" />
+
+            <Button
+                android:id="@+id/button_plus"
+                android:text="@string/plus"
+                style="@style/ButtonStyle" />
+
+            <Button
+                android:id="@+id/button_percent"
+                android:text="@string/percent"
                 style="@style/ButtonStyle" />
 
             <Button
